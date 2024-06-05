@@ -1,0 +1,100 @@
+
+
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+header{
+    background-color: red;
+    box-shadow: 0 5px 5px 5px ;
+    color: black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: red;
+  margin-right: 90px;
+}
+
+p{
+   font-size: 40px; 
+    margin-right: 80px;
+}
+
+div{
+     display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+    
+ img{
+    width: 200px;
+    opacity: 0.8;
+ }   
+
+ a:hover{
+    color: green;
+}
+
+p:hover{
+    box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+
+ img:hover {
+    opacity: 1;
+    border: 6px solid red;
+    width: 170px;
+    height: 220px;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
+
+div a:hover{
+  box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+header:hover{
+    background-color: lawngreen;
+    color: red;
+}
+
+.img1:hover {
+    opacity: 1;
+    border: 6px solid lawngreen;
+    width: 170px;
+    height: 220px;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
+
+.p2:hover{
+     box-shadow: 0 5px 5px 5px ;
+    background-color:red ;
+    color: lawngreen;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+.p1:hover{
+     box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
